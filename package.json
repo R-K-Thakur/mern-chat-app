@@ -1,0 +1,31 @@
+{
+  "name": "wemessage",
+  "version": "1.0.0",
+  "description": "WeMessage is a Full Stack Chatting App.\r Uses Socket.io for real time communication and stores user details in encrypted format in Mongo DB Database.\r ## Tech Stack",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "keywords": [
+    "mern",
+    "chat-app"
+  ],
+  "author": "Rohan Thakur",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "chokidar": "^3.5.3",
+    "colors": "^1.4.0",
+    "dotenv": "^9.0.2",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.17",
+    "nodemon": "^2.0.22",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "socket.io": "^4.1.2"
+  }
+}
